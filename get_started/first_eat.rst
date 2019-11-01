@@ -219,7 +219,7 @@ xboot无需额外配置直接上手！
 
 .. code-block:: bash
 
-   git clone -b f1c100s-kk131 https://github.com/xboot/xboot.git
+   git clone https://github.com/xboot/xboot.git
    cd xboot
    make CROSS_COMPILE=/path/to/arm-eabi- PLATFORM=arm32-f1c100s  #请自行修改到本机地址
 
@@ -398,4 +398,4 @@ PC操作系统         Linux/MacOS
 
 荔枝派3000人QQ交流大群：826307240
 
-荔枝派Telegram电报群：`Lichee Pi <https://t.me/joinchat/HH5CKkoLTnnxtdIl2U1Psg>`_
+荔枝派Telegram电报群：`Lichee Pi <https://t.me/sipeed>`_
