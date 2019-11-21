@@ -38,7 +38,7 @@ LittlevGL 工程配置
 将此三配置文件从模块文件夹中复制到项目文件夹，并将其命名为
 
     - lv_conf.h
-    - lv_drv.h
+    - lv_drv_conf.h
     - lv_ex_conf.h
 
 添加 main.c 文件
@@ -79,7 +79,7 @@ LittlevGL 工程配置
 
 此时工程文件目录如下所示：
 
-.. figure:: http://odfef978i.bkt.clouddn.com/2018-04-09%2013-15-15%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png
+.. figure:: https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/2018-04-09%2013-15-15%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png
    :align: center
 
 LittlevGL 板级配置
@@ -198,7 +198,7 @@ Clion配置工程后，会自动生成 **CMakeLists.txt** ,此文件为 cmake �
 Cmake 配置
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-若您在本地构建，请下载 `CMakeLists.txt <http://odfef978i.bkt.clouddn.com/CMakeLists.txt>`_ 并自行修改lib/include/编译链等目录,确认您的cmake版本高于或等于 3.10 (要从官网下载编译安装)
+若您在本地构建，请下载 `CMakeLists.txt <https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/CMakeLists.txt>`_ 并自行修改lib/include/编译链等目录,确认您的cmake版本高于或等于 3.10 (要从官网下载编译安装)
 
 在docker镜像中，已配置好 cmake；只需修改 CMakeLists.txt 中，rootfs的 lib 的目录地址；
     
